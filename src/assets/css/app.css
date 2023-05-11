@@ -1,0 +1,63 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  --app-blue: #5ea3ec;
+  --app-red: #f64444;
+  --app-yellow: #ffb400;
+}
+
+.main {
+  flex: 1;
+}
+
+.nav {
+  width: 4rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  flex: 1;
+  overflow-y: scroll;
+}
+
+.app__nav-link {
+  transform: rotate(90deg);
+  display: block;
+  font-family: monospace;
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.app-home__nav {
+  background-color: white;
+}
+
+.app-food__nav {
+  background-color: var(--app-blue);
+}
+
+.app-retail__nav {
+  background-color: var(--app-red);
+}
+
+.app-community__nav {
+  background-color: var(--app-yellow);
+}
+
+.main-food {
+  background-color: var(--app-blue);
+}
+
+.main-retail {
+  background-color: var(--app-red);
+}
+
+.main-community {
+  background-color: var(--app-yellow);
+}
