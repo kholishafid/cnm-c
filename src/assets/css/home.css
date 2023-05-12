@@ -5,6 +5,9 @@
 
 .home-hero__image {
   width: 100%;
+  aspect-ratio: 320/213;
+  background-image: url(https://source.unsplash.com/OXXsAafHDeo);
+  background-size: cover;
 }
 
 /* Column */
@@ -20,8 +23,12 @@
 
 .home-column__row-item-image {
   width: 100%;
+  aspect-ratio: 41/56;
   margin-bottom: 1rem;
+  background-position: center;
+  background-size: cover;
 }
+
 
 .home-column__row-item-desc {
   font-family: monospace;

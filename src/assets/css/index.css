@@ -234,3 +234,15 @@ body {
   text-align: center;
   font-weight: 400;
 }
+
+.item-image-shop {
+  background-image: url(https://source.unsplash.com/JgbZTJdoSRc);
+}
+
+.item-image-retail {
+  background-image: url(https://source.unsplash.com/4oPEjtCv-gQ);
+}
+
+.item-image-food {
+  background-image: url(https://source.unsplash.com/eBmyH7oO5wY);
+}
