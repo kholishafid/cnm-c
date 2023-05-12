@@ -17,6 +17,7 @@
   "dependencies": {
     "@solidjs/meta": "^0.28.5",
     "@solidjs/router": "^0.8.2",
-    "solid-js": "^1.6.10"
+    "solid-js": "^1.6.10",
+    "solid-transition-group": "^0.2.2"
   }
 }
