@@ -21,6 +21,28 @@
   font-size: 1rem;
 }
 
+.announcement-icon {
+  animation: linear infinite float 1.75s;
+}
+
+.announcement__icon-reverse {
+  rotate: 180deg;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(10%);
+  }
+
+  50% {
+    transform: translateY(-10%);
+  }
+
+  100% {
+    transform: translateY(10%);
+  }
+}
+
 @media screen and (min-width: 1279px) {
   .announcement {
     grid-template-columns: repeat(3, 1fr);

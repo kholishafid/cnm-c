@@ -1,4 +1,5 @@
 import { Component, JSXElement } from "solid-js";
+import '../assets/css/components/button.css'
 
 const Button: Component<{ variant: "fit" | "full", children: JSXElement }> = ({ children, variant }) => {
   if (variant === "full") {
