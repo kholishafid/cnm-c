@@ -1,22 +1,18 @@
-import '../assets/css/components/announcement.css'
-import { Component, JSXElement } from "solid-js";
+import HappyIcon from "../icon-coponents/happy-icon";
 
-const AnnouncementSection: Component<{ icon: JSXElement, children?: JSXElement }> = (props) => {
+const AnnouncementSection = () => {
   return (
-    <section class="announcement">
-      <div class="announcement-icon">
-        {props.icon}
+
+    <section class="food-announcement">
+      <div>
+        <HappyIcon size={180} />
       </div>
-      {
-        props.children
-          ? props.children
-          : <div>
-            <h1 class="heading announcement__col-heading">The Best of NYC</h1>
-            <p class="announcement__col-p">All under the roof!</p>
-          </div>
-      }
-      <div class='announcement-icon announcement__icon-reverse'>
-        {props.icon}
+      <div>
+        <h1 class="heading food-announcement__col-heading">The Best of NYC</h1>
+        <p class="food-announcement__col-p">All under the roof!</p>
+      </div>
+      <div>
+        <HappyIcon size={180} />
       </div>
     </section>
   );

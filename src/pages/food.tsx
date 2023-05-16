@@ -1,8 +1,7 @@
 import { Component } from "solid-js";
 import Footer from "../components/footer";
-// import '../assets/css/food.css'
+import '../assets/css/food.css'
 import AnnouncementSection from "../components/announcement";
-import HappyIcon from "../icon-coponents/happy-icon";
 
 const FoodPage: Component = () => {
   return (
@@ -13,7 +12,7 @@ const FoodPage: Component = () => {
             <h1 class="hero__heading heading">The Food Hall</h1>
           </div>
           <div class="hero__two-row-item">
-            <div class="hero__two-row-image item-image-food"></div>
+            <div class="hero__two-row-image hero__two-row-image-food"></div>
           </div>
         </div>
       </header>
@@ -63,7 +62,7 @@ const FoodPage: Component = () => {
         </div>
       </section>
 
-      <AnnouncementSection icon={<HappyIcon size={180} />} />
+      <AnnouncementSection />
 
       <Footer />
     </>

@@ -1,7 +1,6 @@
 import { Component } from "solid-js";
 import AnnouncementSection from "../components/announcement";
 import Footer from "../components/footer";
-import RoseIcon from "../icon-coponents/rose-icon";
 
 const RetailPage: Component = () => {
   return (
@@ -12,7 +11,7 @@ const RetailPage: Component = () => {
             <h1 class="hero__heading heading">The Retail Market</h1>
           </div>
           <div class="hero__two-row-item">
-            <div class="hero__two-row-image item-image-retail"></div>
+            <div class="hero__two-row-image hero__two-row-image-retail"></div>
           </div>
         </div>
       </header>
@@ -83,7 +82,7 @@ const RetailPage: Component = () => {
         </div >
       </section >
 
-      <AnnouncementSection icon={<RoseIcon />} />
+      <AnnouncementSection />
 
       <Footer />
     </>
