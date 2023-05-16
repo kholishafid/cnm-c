@@ -1,0 +1,32 @@
+@media screen and (min-width: 1279px) {
+  .three-grid__row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .events__row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+
+  .hero {
+    padding-bottom: 4rem;
+  }
+
+  .hero__two-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    place-items: end center;
+  }
+
+  .hero__two-row-image {
+    width: 378px;
+  }
+
+  .hero__heading {
+    font-size: 10rem;
+  }
+
+  .list-grid__row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

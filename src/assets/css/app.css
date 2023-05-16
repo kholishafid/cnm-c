@@ -1,63 +1,45 @@
-.app {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  overflow: hidden;
-  --app-blue: #5ea3ec;
-  --app-red: #f64444;
-  --app-yellow: #ffb400;
+@import url(./sm/app.css);
+@import url(./md/app.css);
+@import url(./lg/app.css);
+
+.slide-fade-enter-active,
+.slide-fade-exit-active {
+  transition: all 0.6s;
 }
 
-.main {
-  flex: 1;
+.slide-fade-enter,
+.slide-fade-exit-to {
+  flex: 0;
+  padding: 0;
 }
 
-.nav {
-  width: 4rem;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.slide-fade-enter-active .content,
+.slide-fade-exit-active .content {
+  transition: all 0.3s linear;
+  opacity: 1;
 }
 
-.main {
-  flex: 1;
-  overflow-y: scroll;
+.slide-fade-exit-active .content {
+  transition: all 0.3s ease-out;
 }
 
-.app__nav-link {
-  transform: rotate(90deg);
-  display: block;
-  font-family: monospace;
-  color: black;
-  text-decoration: none;
-  font-size: 1rem;
+.slide-fade-enter-active .content {
+  transition-delay: 0.3s;
 }
 
-.app-home__nav {
-  background-color: white;
+.slide-fade-enter .content,
+.slide-fade-exit-to .content {
+  transform: translateX(25vw);
+  opacity: 0;
 }
 
-.app-food__nav {
-  background-color: var(--app-blue);
+.nav-fade-enter-active,
+.nav-fade-exit-active {
+  transition: all 0.6s;
 }
 
-.app-retail__nav {
-  background-color: var(--app-red);
-}
-
-.app-community__nav {
-  background-color: var(--app-yellow);
-}
-
-.main-food {
-  background-color: var(--app-blue);
-}
-
-.main-retail {
-  background-color: var(--app-red);
-}
-
-.main-community {
-  background-color: var(--app-yellow);
+.nav-fade-enter,
+.nav-fade-exit-to {
+  opacity: 0;
 }

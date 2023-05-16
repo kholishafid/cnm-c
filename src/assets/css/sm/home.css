@@ -1,0 +1,85 @@
+.home-hero {
+  padding: 300px 2rem 2rem 2rem !important;
+}
+
+.home-hero__text {
+  font-size: 2.5rem;
+}
+
+.home-hero__image {
+  width: 100%;
+
+  aspect-ratio: 6/7;
+  background-image: url(https://source.unsplash.com/OXXsAafHDeo);
+  background-size: cover;
+  margin-bottom: 4rem;
+}
+
+/* Column */
+.home-column {
+  padding: 2rem;
+}
+
+.home-column__heading {
+  font-size: 3.5rem;
+  font-weight: 400;
+  margin-bottom: 6rem;
+}
+
+.home-column__row-item-image {
+  width: 100%;
+  aspect-ratio: 41/56;
+  margin-bottom: 1.5rem;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.home-column__row-item-desc {
+  font-family: monospace;
+  line-height: 1.5rem;
+  font-size: 1rem;
+}
+
+/* event */
+.home-events {
+  padding: 3rem 2rem;
+  position: relative;
+}
+
+.home-events .three-grid__row {
+  place-items: center;
+}
+
+.home-events .events__row {
+  margin: 3rem 0;
+}
+
+.home-events .button {
+  width: 100%;
+}
+
+.home-events .events__row-item {
+  padding: 5rem 0;
+}
+
+/* address */
+.home-address {
+  display: grid;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.home-address__text {
+  width: 100%;
+  padding: 4rem 3rem;
+  /* padding: 6rem 3rem; */
+  box-sizing: border-box;
+}
+
+.home-address__text h3 {
+  /* font-size: 4rem; */
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: center;
+}

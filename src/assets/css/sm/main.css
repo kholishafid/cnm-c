@@ -1,0 +1,177 @@
+.input {
+  padding: 1.5rem 3rem;
+  outline: none;
+  border: 1px solid #000;
+  font-family: monospace;
+  background-color: transparent;
+  font-size: 1rem;
+}
+
+.input::placeholder {
+  color: #000;
+  font-size: 1rem;
+}
+
+.hero {
+  padding: 10rem 0 0 0;
+  position: relative;
+}
+
+.heading {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+}
+
+.hero__two-row {
+  display: grid;
+  gap: 2rem;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+.hero__two-row-item {
+  display: grid;
+
+}
+
+.hero__heading {
+  font-size: 4rem;
+  padding-right: 2rem;
+  font-weight: 100;
+}
+
+.hero__two-row-image {
+  width: 100%;
+  aspect-ratio: 42/53;
+  background-size: cover;
+  background-position: center;
+}
+
+.list-grid {
+  padding: 3rem 2rem;
+}
+
+.list-grid__row {
+  display: grid;
+  gap: 3rem;
+}
+
+.list-grid__row-item-genre {
+  font-family: monospace;
+  font-size: 1rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.list-grid__row-item-name {
+  font-size: 2.25rem;
+}
+
+/* event */
+.events__row {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+}
+
+.events__row-item {
+  text-align: center;
+  width: 100%;
+  padding: 3rem 0;
+}
+
+.events__row-item-date {
+  font-family: monospace;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.events__row-item-desc {
+  font-family: monospace;
+  font-size: 1rem;
+  padding: 0 2rem;
+  line-height: 1.5rem;
+}
+
+.three-grid {
+  padding: 3rem 0;
+}
+
+.three-grid__row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.three-grid__row-item-text {
+  font-size: 6rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.item-image-shop {
+  background-image: url(https://source.unsplash.com/JgbZTJdoSRc);
+}
+
+.item-image-retail {
+  background-image: url(https://source.unsplash.com/4oPEjtCv-gQ);
+}
+
+.item-image-food {
+  background-image: url(https://source.unsplash.com/eBmyH7oO5wY);
+}
+
+.running-two-divider {
+  background-image:
+    linear-gradient(90deg, black 50%, transparent 0),
+    linear-gradient(90deg, black 50%, transparent 0),
+    linear-gradient(90deg, black 50%, transparent 0),
+    linear-gradient(90deg, black 50%, transparent 0);
+  background-position: 0 0, 0 14px, 100% 100%, 100% calc(100% - 14px);
+  background-size: 24px 1px, 24px 1px, 24px 1px, 24px 1px;
+  background-repeat: repeat-x;
+  animation: infinite two-divider-run 30s linear;
+}
+
+@keyframes two-divider-run {
+  100% {
+    background-position: 100% 0, 100% 14px, 0 100%, 0 calc(100% - 14px);
+  }
+}
+
+
+
+
+.border-dot {
+  background-image: linear-gradient(0deg, #000 50%, transparent 0),
+    linear-gradient(90deg, #000 50%, transparent 0),
+    linear-gradient(180deg, #000 50%, transparent 0),
+    linear-gradient(90deg, #000 50%, transparent 0);
+  background-size: 1px 24px,
+    24px 1px,
+    1px 24px,
+    24px 1px;
+  background-repeat: repeat-y, repeat-x, repeat-y, repeat-x;
+  background-position: 0 24px, 0 0, 100% 0, 24px 100%;
+  animation: 0.3s infinite normal border-dot-running linear;
+  animation-play-state: paused;
+}
+
+.border-dot:hover {
+  animation-play-state: running;
+}
+
+@keyframes border-dot-running {
+  100% {
+    background-position: 0 0, 24px 0, 100% 24px, 0 100%;
+  }
+}
+
+.divider {
+  background-image:
+    repeating-linear-gradient(45deg, transparent, transparent 14px, black 15px, transparent 15px),
+    repeating-linear-gradient(45deg, transparent, transparent 14px, black 15px, transparent 15px);
+  background-repeat: repeat-x, repeat-x;
+  background-size: 15px 15px, 15px 15px;
+  background-position: 0 0, 100% 100%;
+}

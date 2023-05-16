@@ -1,0 +1,96 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  --app-blue: #5ea3ec;
+  --app-red: #f64444;
+  --app-yellow: #ffb400;
+}
+
+.main {
+  flex: 1;
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.base-nav {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  position: fixed;
+  z-index: 99;
+}
+
+.mobile-show {
+  display: flex;
+}
+
+.nav__name {
+  transform: rotate(45deg);
+  display: block;
+  font-family: monospace;
+  color: black;
+  font-size: 2rem;
+  user-select: none;
+}
+
+.app-home__nav {
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 50%;
+  bottom: 50%;
+}
+
+.app-food__nav {
+  background-color: var(--app-blue);
+  top: 0;
+  left: 50%;
+  right: 0;
+  bottom: 50%;
+}
+
+.app-retail__nav {
+  background-color: var(--app-red);
+  top: 50%;
+  left: 0;
+  right: 50%;
+  bottom: 0;
+}
+
+.app-community__nav {
+  background-color: var(--app-yellow);
+  top: 50%;
+  left: 50%;
+  right: 0;
+  bottom: 0;
+}
+
+.main-food {
+  background-color: var(--app-blue);
+}
+
+.main-retail {
+  background-color: var(--app-red);
+}
+
+.main-community {
+  background-color: var(--app-yellow);
+}
+
+.mobile-nav {
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  right: 0;
+  padding: 3rem 2rem;
+  display: flex;
+  justify-content: end;
+}
+
+.mobile-nav__menu-icon {
+  width: 2rem;
+}

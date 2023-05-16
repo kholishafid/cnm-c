@@ -1,0 +1,5 @@
+@media screen and (min-width: 1023px) {
+  .hero__two-row-item {
+    place-items: start;
+  }
+}

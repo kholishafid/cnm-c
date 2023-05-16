@@ -1,0 +1,55 @@
+@media screen and (min-width: 1279px) {
+  .community-event {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "event-1 placeholder event-2"
+      "event-3 placeholder event-4";
+    gap: 3rem;
+    padding: 3rem 0;
+  }
+
+  .community-hero .hero__two-row-image {
+    display: none;
+  }
+
+  .community-event__item-text {
+    font-size: 6rem;
+  }
+
+  .community-features {
+    padding: 0;
+  }
+
+  .community-features__heading {
+    font-size: 7rem;
+  }
+
+  .community-features__row {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-bottom: 10rem;
+  }
+
+  .community-features__row-item h4 {
+    font-size: 3rem;
+  }
+
+  .community-radio {
+    position: relative;
+  }
+
+  .community-radio .events__row-item {
+    background-image: none;
+  }
+
+  .community-radio .button {
+    width: fit-content;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -1.25rem;
+    background-color: var(--app-yellow);
+  }
+}

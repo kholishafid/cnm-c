@@ -1,0 +1,27 @@
+@media screen and (min-width: 1280px) {
+  .home-hero__image {
+    aspect-ratio: 320/213;
+  }
+
+  .home-events .button {
+    width: fit-content;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 4.75rem;
+    background-color: white;
+  }
+
+  .home-events {
+    padding: 3rem 0;
+  }
+
+  .home-events .events__row-item {
+    background-image: none;
+  }
+
+  .home-address {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

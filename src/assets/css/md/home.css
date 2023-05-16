@@ -1,0 +1,23 @@
+@media screen and (min-width: 1023px) {
+  .home-hero {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .home-hero__text {
+    font-size: 6rem;
+  }
+
+  .home-column {
+    padding: 2rem 0;
+  }
+
+  .home-column__row-item-desc {
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+
+  .home-column__heading {
+    font-size: 8rem;
+  }
+}
