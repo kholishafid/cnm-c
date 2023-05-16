@@ -26,6 +26,11 @@
 
 .mobile-show {
   display: flex;
+  position: fixed;
+  z-index: 99;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
 
 .nav__name {
@@ -35,6 +40,8 @@
   color: black;
   font-size: 2rem;
   user-select: none;
+  text-decoration: none;
+  height: fit-content;
 }
 
 .app-home__nav {
