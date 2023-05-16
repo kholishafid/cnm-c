@@ -53,12 +53,12 @@ const HomePage: Component = () => {
             <HomeEventTypograph />
           </div>
         </div>
-        <div class="events__row">
+        <div class="events__row running-two-divider">
           <div class="events__row-item">
             <span class="events__row-item-date">12/02</span>
             <p class="events__row-item-desc">Small Business Retail Pop Up Weekend!</p>
           </div>
-          <div class="events__row-item">
+          <div class="events__row-item running-two-divider">
             <span class="events__row-item-date">02/07</span>
             <p class="events__row-item-desc">New Balance x Paperboy Paris by Greenhouse @ Canal Street Market</p>
           </div>
