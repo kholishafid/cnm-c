@@ -1,5 +1,9 @@
-# WIP Canal Street Market Clone
+# Canal Street Market Clone
 
-mencoba me-recreate [Canal Street Market](https://canalstreet.market/)
+Mencoba me-recreate [Canal Street Market](https://canalstreet.market/)
 
-ide dari [Frontend Practice](https://www.frontendpractice.com/)
+Ide dari [Frontend Practice](https://www.frontendpractice.com/)
+
+|>> [Live Previw](https://canalstreetmarket-c.vercel.app/) <<|
+
+![image](./public/cnm-c.png)
