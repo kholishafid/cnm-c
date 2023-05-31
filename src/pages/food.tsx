@@ -13,7 +13,7 @@ const FoodPage: Component = () => {
             <h1 class="hero__heading heading">The Food Hall</h1>
           </div>
           <div class="hero__two-row-item">
-            <div class="hero__two-row-image item-row-image-food"></div>
+            <div class="hero__two-row-image item-image-food"></div>
           </div>
         </div>
       </header>
