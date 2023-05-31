@@ -68,7 +68,6 @@
   display: inline;
 }
 
-
 .feature-row-item__image {
   width: 100%;
   aspect-ratio: 11/7;
@@ -101,7 +100,6 @@
 
 .community-radio .button {
   margin-top: 2rem;
-
 }
 
 @media screen and (max-width: 1279px) {
