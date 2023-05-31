@@ -15,8 +15,8 @@ const App: Component = () => {
   const [navActive, setNavActive] = createSignal(false);
 
   const toggleNav = (): void => {
-    const screen: number = window.screen.width;
-    if (screen > 1270) {
+    const screen: number = window.innerWidth;
+    if (screen > 1280) {
       setNavActive(false);
       return;
     };
@@ -32,11 +32,9 @@ const App: Component = () => {
         href='/'
         onclick={toggleNav}
       >
-        <Transition name='nav-fade'>
-          <Show when={location.pathname !== '/'}>
-            <span class='nav__name'>Home</span>
-          </Show>
-        </Transition>
+        <Show when={location.pathname !== '/'}>
+          <span class='nav__name'>Home</span>
+        </Show>
       </A>
       <Transition name='slide-fade'>
         <Show when={location.pathname === '/'}>
@@ -56,11 +54,9 @@ const App: Component = () => {
         href='/food'
         onclick={toggleNav}
       >
-        <Transition name='nav-fade'>
-          <Show when={location.pathname !== '/food'}>
-            <span class='nav__name'>Food</span>
-          </Show>
-        </Transition>
+        <Show when={location.pathname !== '/food'}>
+          <span class='nav__name'>Food</span>
+        </Show>
       </A>
       <Transition name='slide-fade'>
         <Show when={location.pathname == '/food'}>
@@ -80,11 +76,9 @@ const App: Component = () => {
         href='/retail'
         onclick={toggleNav}
       >
-        <Transition name='nav-fade'>
-          <Show when={location.pathname !== '/retail'}>
-            <span class='nav__name'>retail</span>
-          </Show>
-        </Transition>
+        <Show when={location.pathname !== '/retail'}>
+          <span class='nav__name'>retail</span>
+        </Show>
       </A>
       <Transition name='slide-fade'>
         <Show when={location.pathname == '/retail'}>
@@ -104,11 +98,9 @@ const App: Component = () => {
         href='/community'
         onclick={toggleNav}
       >
-        <Transition name='nav-fade'>
-          <Show when={location.pathname !== '/community'}>
-            <span class='nav__name'>community</span>
-          </Show>
-        </Transition>
+        <Show when={location.pathname !== '/community'}>
+          <span class='nav__name'>community</span>
+        </Show>
       </A>
       <Transition name='slide-fade'>
         <Show when={location.pathname == '/community'}>

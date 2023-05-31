@@ -33,13 +33,3 @@
   transform: translateX(25vw);
   opacity: 0;
 }
-
-.nav-fade-enter-active,
-.nav-fade-exit-active {
-  transition: all 0.6s;
-}
-
-.nav-fade-enter,
-.nav-fade-exit-to {
-  opacity: 0;
-}
