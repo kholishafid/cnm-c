@@ -13,4 +13,8 @@
   .mobile-nav {
     display: none;
   }
+
+  .main {
+    padding-right: 4rem;
+  }
 }

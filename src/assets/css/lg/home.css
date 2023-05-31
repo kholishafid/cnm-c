@@ -1,4 +1,13 @@
 @media screen and (min-width: 1280px) {
+  .home-hero {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .home-column {
+    padding: 2rem 0;
+  }
+
   .home-hero__image {
     aspect-ratio: 320/213;
   }

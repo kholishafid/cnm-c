@@ -52,4 +52,8 @@
     bottom: -1.25rem;
     background-color: var(--app-yellow);
   }
+
+  .community-radio .button:hover {
+    background-color: black;
+  }
 }
